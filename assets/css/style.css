@@ -7,13 +7,24 @@
   --bcolor:#dddddd;
 }
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 /*HEADER*/
 .navbar-brand , footer p{
-  font-family:'Lobster',sans-serif ;
+  font-family:'Raleway',sans-serif ;
   font-size: 2rem;
+}
+
+.hero{
+  background-color: #1F1F1F;
+  height: 35vh;
+  padding-top: 100px;
+  }
+
+.hero h2{
+  font-weight: 200;
 }
 
 /*MAIN*/
