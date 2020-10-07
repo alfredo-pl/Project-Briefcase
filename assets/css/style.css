@@ -54,17 +54,24 @@ body {
 .content ol{
 padding: 0;
 }
-/*RECIPES*/
-.recipes h2{
-  font-weight: 700;
-  text-align: center;
-  padding: 20px 0;
-}
-.card h5{
-  font-weight: 700;
-  padding-bottom: 10px;
-}
+/*WORKS CARDS*/
 
+.card-title{
+  font-weight: 700;
+}
+.card-body h5,.card-body p , .list-group li{
+  color: var(--cfont);
+}
+@media (min-width: 400px) {
+  .card{
+    width: 19rem!important;
+  }
+}
+/*MODAL*/
+
+.modal-body img{
+  width: 100%;
+}
 /*NEWSLETTER*/
 #newsletter{
   padding: 40px 0;
@@ -118,24 +125,3 @@ font-weight: 700;
 .bg-danger{
   background-color: var(--danger)!important;
 }
-
-/*  MEDIA QUERYS*/
-@media (min-width: 990px) {
-  .main h1{
-    font-size: 45px!important;
-  }
-  .main-text{
-    text-align: left;
-  } 
-  }
-  @media (min-width: 500px) {
-  .border-top{
-    border-top:none!important;
-  }
-  .border-dark{
-    border-color: none!important;
-  }
-  .main-text h5{
-    padding:20px 0;
-  }
-  }
