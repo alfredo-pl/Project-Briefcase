@@ -27,28 +27,12 @@ body {
   font-weight: 200;
 }
 
-/*MAIN*/
-.main{
-  margin-top: 3.3rem;
-  padding-top: 2.2rem;
-}
-.main img{
-  width: 100%;
-}
+/*ABOUT ME*/
 
-.main a{
-  font-size: 13px;
-}
-.main h1{
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 0;
-}
-.main h5{
-  font-weight: 700;
-  text-transform: uppercase;
-
+.line{
+  width: 100px;
+  height: 1px;
+  background-color: #000;
 }
 /*CONTENT*/
 .content{
