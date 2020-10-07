@@ -39,11 +39,17 @@ h1,h2,h3,h4,h5{
 }
 
 /*ABOUT ME*/
+#about-me p{
+  line-height: 2;
+}
 
 .line{
   width: 100px;
   height: 1px;
   background-color: #000;
+}
+.item-about i{
+  font-size: 30px;
 }
 /*CONTENT*/
 .content{
