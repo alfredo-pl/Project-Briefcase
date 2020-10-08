@@ -65,8 +65,23 @@ h1,h2,h3,h4,h5{
 #experience h6{
   color: var(--lgray);
 }
-/*WORKS CARDS*/
 
+
+/*WORKS */
+#work{
+  background-color: var(--blue);
+}
+#work .line{
+  background-color: var(--white);
+}
+/*CARDS*/
+.card:hover{
+  transform: scale(1.1);
+ 
+}
+.card{
+  transition: ease-in-out .5s;
+}
 .card-title{
   font-weight: 700;
 }
@@ -78,6 +93,10 @@ h1,h2,h3,h4,h5{
     width: 19rem!important;
   }
 }
+.card-link{
+  color: var(--black);
+}
+
 /*MODAL*/
 
 .modal-body img{
