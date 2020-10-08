@@ -11,12 +11,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5 , footer p{
   font-family: 'Oswald',sans-serif ;
 }
 
 /*HEADER*/
-.navbar-brand , footer p{
+.navbar-brand{
   font-family:'Raleway',sans-serif ;
   font-size: 2rem;
 }
@@ -102,22 +102,25 @@ h1,h2,h3,h4,h5{
 .modal-body img{
   width: 100%;
 }
-/*NEWSLETTER*/
-#newsletter{
-  padding: 40px 0;
-  margin-top: 35px;
+
+/*FOOTER*/
+footer p{
+  font-size: 30px;
+  letter-spacing: 1.5px;
 }
-#newsletter h2{
-font-weight: 700;
+@media (min-width: 400px) {
+  footer p{
+   margin-bottom: 0px!important;
+  }
 }
-#newsletter h4 span{
-  font-family: 'Lobster', sans-serif;
+footer a{
+  color: var(--white);
 }
-#newsletter a{
-  width: 100%;
+footer a:hover{
+  color: var(--blue);
 }
-#newsletter a:hover{
- color: var(--black);
+footer i{
+  font-size: 25px;
 }
 /*POPOVER*/
 .popover-body{
@@ -150,6 +153,4 @@ font-weight: 700;
 .bg-dark{
   background-color: var(--acolor)!important;
 }
-.bg-danger{
-  background-color: var(--danger)!important;
-}
+
