@@ -2,9 +2,10 @@
 :root{
   --black:#000;
   --white:#fff;
-  --danger:#dc3545;
   --acolor:#373A3C;
-  --bcolor:#dddddd;
+  --blue:#138b9f;
+  --gray:#646a6e;
+  --lgray:#8f8f8f;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -33,6 +34,9 @@ h1,h2,h3,h4,h5{
     background-image: url(/assets/img/hero-mob.jpg);
     background-position: center center;
     }
+    .hero .container-fluid{
+      height: 100%!important;
+    }
 }
 .hero h2{
   font-weight: 200;
@@ -51,25 +55,15 @@ h1,h2,h3,h4,h5{
 .item-about i{
   font-size: 30px;
 }
-/*CONTENT*/
-.content{
-  line-height: 2;
+/*EXPERIENCE*/
+#experience h4{
+  color: var(--blue);
 }
-.content p{
-  margin-bottom: 30px;
+#experience h5{
+  color: var(--gray);
 }
-.content h5{
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 50px;
-}
-.content ul{
-  list-style: none;
-  padding: 0;
-  margin-top: 30px;
-}
-.content ol{
-padding: 0;
+#experience h6{
+  color: var(--lgray);
 }
 /*WORKS CARDS*/
 
@@ -108,15 +102,13 @@ font-weight: 700;
 }
 /*POPOVER*/
 .popover-body{
-  background-color: var(--acolor);
-  color: var(--bcolor);
+  background-color: var(--blue);
+  color: var(--white);
   border-radius: 3px;
 }
 /*CAROUSEL*/
 .carousel-indicators {
   bottom: -56px;
-
-
 }
 
 .carousel-indicators li {
