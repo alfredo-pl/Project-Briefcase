@@ -137,7 +137,7 @@ footer i{
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: var(--acolor);
+  background-color: var(--blue);
 }
 
 /*transicion lenta del carousel*/
