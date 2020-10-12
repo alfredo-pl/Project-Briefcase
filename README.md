@@ -8,7 +8,7 @@
 ```
 
 ## ¡Vé Ahora!
-Verás la vista final en [Proyecto Mi Portafolio](https://alfredo-pl.github.io/Proyect-Briefcase/)
+Verás la vista final en [Proyecto Mi Portafolio](https://alfredo-pl.github.io/Project-Briefcase/)
 
  
 ## Requisitos
